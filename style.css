@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  text-transform: capitalize;
+}
+.navbar-nav i {
+  padding-right: 12px;
+}
+.navbar-nav a {
+  margin-right: 1rem;
+  font-size: 17px;
+}
+.navbar-nav a:hover {
+  color: black;
+}
+.navbar-light {
+  background-color: rgb(115, 21, 170);
+  color: white;
+}
+.national {
+  padding-top: 0em;
+  width: 100px;
+  height: 90px;
+}
+.first {
+  display: flex;
+}
+.poster {
+  width: 260px;
+  height: 80px;
+  float: right;
+}
+/*second-navbar*/
+.search-box {
+  border: 1px solid white;
+  border-radius: 80px;
+  background: white;
+  width: max-content;
+  margin: 8px;
+}
+.search-box:hover {
+  box-shadow: 0 0 5px 10px #b32fce;
+  border: 1px solid rgb(175, 16, 175);
+}
+.search-input {
+  width: 180px;
+  border: none;
+  font-size: 13px;
+  margin: 15px 5px 10px 15px;
+  outline: none;
+  background: transparent;
+}
+.icons {
+  font-size: 25px;
+  padding: 7px;
+}
+button {
+  background: transparent;
+  border: none;
+  outline: none;
+}
+/*card -navbar*/
+.big-background {
+  background-image: linear-gradient(
+      to bottom,
+      rgb(250, 242, 247),
+      rgba(238, 228, 233, 0.6)
+    ),
+    url(https://media.istockphoto.com/vectors/smart-green-city-using-alternative-energy-sources-including-icons-vector-id539824172?b=1&k=20&m=539824172&s=612x612&w=0&h=qwN_2sDRaa_tI0VVbrWI8fdMdvEtgPNIJ8UQ9cL4oVM=);
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.card {
+  background-color: red;
+  color: #fff;
+  width: 280px;
+  height: 270px;
+  display: inline-block;
+  border-radius: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.card img {
+  padding-top: 3em;
+}
+.card1 {
+  margin-bottom: 60px;
+  background: linear-gradient(
+      to top,
+      rgba(235, 27, 148, 0.6),
+      rgba(230, 71, 182, 0.6)
+    ),
+    url(https://previews.123rf.com/images/blackzheep/blackzheep1504/blackzheep150400011/39156528-work-table-with-laptop-computer-top-view.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.card2 {
+  margin-bottom: 0px;
+  background: linear-gradient(
+      to top,
+      rgba(19, 119, 126, 0.6),
+      rgba(131, 212, 236, 0.6)
+    ),
+    url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJuje5sCIBnN4IRpsXY0o1DNFa_kto3FiQ5g&usqp=CAU);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.card3 {
+  background: linear-gradient(
+      to top,
+      rgba(230, 148, 41, 0.6),
+      rgba(231, 143, 60, 0.6)
+    ),
+    url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjNLQGi4R-l3Hst69IwXDT8ZPiYwwjX7UIjVmnNxeLTIufPBu39svr8TU9OiQ3MasrYWg&usqp=CAU);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 1em;
+}
+.card4 {
+  background: linear-gradient(
+      to top,
+      rgba(141, 17, 199, 0.6),
+      rgba(209, 96, 243, 0.6)
+    ),
+    url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmPsUzWcsePdr1rqmIRlEBZNGnduRhYTi2lDISXV6y1-S2Umac6m4gABT-oeWwqKXiZVo&usqp=CAU);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(238, 183, 81, 0.7);
+  padding-bottom: 3em;
+}
+.card-img {
+  width: 150px;
+  height: 150px;
+}
+/*right-col*/
+.right-col {
+  padding-top: 3em;
+}
+.right-col h1 {
+  font-size: 50px;
+  font-family: "Titan One", cursive;
+  padding-bottom: 0.4em;
+}
+.right-col h6 {
+  color: #b32fce;
+  font-size: 27px;
+}
+.right-col p {
+  padding-top: 20px;
+  font-size: 18px;
+}
+.middle-dib {
+  padding-top: 20px;
+}
+.middle-dib i {
+  color: rgb(19, 177, 19);
+  font-size: 25px;
+  padding-right: 10px;
+}
+.butum {
+  display: flex;
+  padding: 1.5em;
+}
+.butum .btn {
+  border-radius: 2em;
+  width: 10em;
+  height: 45px;
+}
+.butum .second {
+  margin-left: 2em;
+  color: black;
+}
+/*jumbotron*/
+.nav-text h5 {
+  padding-top: 0.5em;
+}
+.jumbotron {
+  height: 360px;
+}
+.jumbotron h2 {
+  color: #862ec0;
+  font-size: 35px;
+}
+.jumbotron h4 {
+  color: gray;
+  padding-top: 0.3em;
+}
+.jumbotron i {
+  padding-right: 23px;
+  font-size: 40px;
+}
+.jumbotron .dropdown button {
+  width: 300px;
+}
+@media (max-width: 993px) {
+  .jumbotron {
+    overflow: hidden;
+  }
+  .box-model .card-two img {
+    width: 40px;
+    height: 40px;
+    margin-left: 0;
+  }
+  html {
+    margin: 0;
+  }
+}
+
+/*box-model*/
+
+.box-model {
+  background-color: rgb(115, 21, 170);
+  text-transform: capitalize;
+  color: #fff;
+  overflow: hidden;
+}
+.box-model h1 {
+  font-family: "Titan One", cursive;
+  font-size: 50px;
+}
+.box-model .card-two img {
+  width: 100px;
+  height: 100px;
+}
+.box-model .card-two p {
+  overflow-y: hidden;
+  color: white;
+}
+/*footer*/
+.left-footer h6 {
+  background-color: gray;
+  border-radius: 4em;
+  padding: 0.5em;
+  color: #fff;
+  font-size: 17px;
+}
+/*login*/
+.login {
+  background-color: rgb(115, 21, 170);
+  border-radius: 0 2em;
+  color: #fff;
+}
+#form {
+  min-height: 300px;
+  color: rgb(245, 230, 230);
+  text-transform: capitalize;
+  padding: 5px 30px 40px 40px;
+  border-radius: 1em;
+  align-items: center;
+}
